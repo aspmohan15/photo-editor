@@ -1,0 +1,9 @@
+.main {
+  flex: 10; /* height: 100vh; */
+  height: 100%;
+}
+
+.mainContainer {
+  display: grid;
+  grid-template-rows: auto;
+}
