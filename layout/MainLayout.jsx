@@ -1,13 +1,11 @@
 import React from "react";
-import Main from "../components/main/Main";
-import SideBar from "../components/sideBar/SideBar";
+import Editor from "../components/Editor/Editor";
 import styles from "../styles/MainLayout.module.css";
 
 const MainLayout = () => {
   return (
     <div className={styles.mainLayoutContainer}>
-      <Main  />
-      <SideBar  />
+      <Editor />
     </div>
   );
 };
